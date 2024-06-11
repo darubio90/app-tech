@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to right, #1e90ff, #ffffff); /* Azul oscuro (#1e90ff) a Blanco (#ffffff) */
+    background-size: 200% 200%;
+    animation: gradient 60s linear infinite; /* Aumentamos la duración de la animación a 20 segundos */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
